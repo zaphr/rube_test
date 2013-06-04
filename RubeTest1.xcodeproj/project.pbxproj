@@ -195,6 +195,9 @@
 		26FC2495175C4537004E0752 /* BasicRUBELayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26FC248F175C4536004E0752 /* BasicRUBELayer.mm */; };
 		26FC2496175C4537004E0752 /* RUBEImageInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26FC2492175C4537004E0752 /* RUBEImageInfo.mm */; };
 		26FC2497175C4537004E0752 /* RUBELayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26FC2494175C4537004E0752 /* RUBELayer.mm */; };
+		26FC2499175E00FD004E0752 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26FC2498175E00FD004E0752 /* README.txt */; };
+		26FC249C175E016E004E0752 /* HummerLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26FC249B175E016E004E0752 /* HummerLayer.mm */; };
+		26FC249E175E0A30004E0752 /* hummer.json in Resources */ = {isa = PBXBuildFile; fileRef = 26FC249D175E0A30004E0752 /* hummer.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -589,6 +592,10 @@
 		26FC2492175C4537004E0752 /* RUBEImageInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RUBEImageInfo.mm; sourceTree = "<group>"; };
 		26FC2493175C4537004E0752 /* RUBELayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBELayer.h; sourceTree = "<group>"; };
 		26FC2494175C4537004E0752 /* RUBELayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RUBELayer.mm; sourceTree = "<group>"; };
+		26FC2498175E00FD004E0752 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		26FC249A175E016E004E0752 /* HummerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HummerLayer.h; sourceTree = "<group>"; };
+		26FC249B175E016E004E0752 /* HummerLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HummerLayer.mm; sourceTree = "<group>"; };
+		26FC249D175E0A30004E0752 /* hummer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hummer.json; path = Resources/hummer.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -654,6 +661,8 @@
 				26FC2492175C4537004E0752 /* RUBEImageInfo.mm */,
 				26FC2493175C4537004E0752 /* RUBELayer.h */,
 				26FC2494175C4537004E0752 /* RUBELayer.mm */,
+				26FC249A175E016E004E0752 /* HummerLayer.h */,
+				26FC249B175E016E004E0752 /* HummerLayer.mm */,
 				26FC2186175C36AA004E0752 /* AppDelegate.h */,
 				26FC2187175C36AA004E0752 /* AppDelegate.mm */,
 				26FC2189175C36AA004E0752 /* HelloWorldLayer.h */,
@@ -665,6 +674,7 @@
 				26FC1F66175C36A7004E0752 /* Resources */,
 				26FC1F7E175C36A8004E0752 /* libs */,
 				26FC2182175C36AA004E0752 /* Supporting Files */,
+				26FC2498175E00FD004E0752 /* README.txt */,
 			);
 			path = RubeTest1;
 			sourceTree = "<group>";
@@ -672,6 +682,7 @@
 		26FC1F66175C36A7004E0752 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				26FC249D175E0A30004E0752 /* hummer.json */,
 				26FC1F67175C36A7004E0752 /* Default.png */,
 				26FC1F69175C36A7004E0752 /* Default@2x.png */,
 				26FC1F6B175C36A7004E0752 /* Default-568h@2x.png */,
@@ -1299,6 +1310,8 @@
 				26FC2193175C36AA004E0752 /* blocks.png in Resources */,
 				26FC2452175C439C004E0752 /* Box2DConfig.cmake in Resources */,
 				26FC2453175C439C004E0752 /* CMakeLists.txt in Resources */,
+				26FC2499175E00FD004E0752 /* README.txt in Resources */,
+				26FC249E175E0A30004E0752 /* hummer.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1473,6 +1486,7 @@
 				26FC2495175C4537004E0752 /* BasicRUBELayer.mm in Sources */,
 				26FC2496175C4537004E0752 /* RUBEImageInfo.mm in Sources */,
 				26FC2497175C4537004E0752 /* RUBELayer.mm in Sources */,
+				26FC249C175E016E004E0752 /* HummerLayer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -217,39 +217,48 @@
         m_world->Step(1/60.0, 8, 3);
 }
 
-
-// Standard Cocos2d method
 -(void) draw
 {
-    if ( !m_world )
-        return;
-    
-    glDisable(GL_TEXTURE_2D);
-//	glDisableClientState(GL_COLOR_ARRAY);
-//	glDisableClientState(GL_TEXTURE_COORD_ARRAY);
-	
-    // Use debug draw to show fixtures
-	m_world->DrawDebugData();
-    
-    // Draw mouse joint line
-    if ( m_mouseJoint ) {
-        b2Vec2 p1 = m_mouseJoint->GetAnchorB();
-        b2Vec2 p2 = m_mouseJoint->GetTarget();
-        
-        b2Color c;
-        c.Set(0.0f, 1.0f, 0.0f);
-        m_debugDraw->DrawPoint(p1, 4.0f, c);
-        m_debugDraw->DrawPoint(p2, 4.0f, c);
-        
-        c.Set(0.8f, 0.8f, 0.8f);
-        m_debugDraw->DrawSegment(p1, p2, c);
-    }
-	
-	glEnable(GL_TEXTURE_2D);
-//	glEnableClientState(GL_COLOR_ARRAY);
-//	glEnableClientState(GL_TEXTURE_COORD_ARRAY);
-    
+    [super draw];
+    ccGLEnableVertexAttribs( kCCVertexAttribFlag_Position );
+    kmGLPushMatrix();
+    m_world->DrawDebugData();
+    kmGLPopMatrix();
 }
+
+
+//// Standard Cocos2d method
+//-(void) draw
+//{
+//    if ( !m_world )
+//        return;
+//    
+//    glDisable(GL_TEXTURE_2D);
+////	glDisableClientState(GL_COLOR_ARRAY);
+////	glDisableClientState(GL_TEXTURE_COORD_ARRAY);
+//	
+//    // Use debug draw to show fixtures
+//	m_world->DrawDebugData();
+//    
+//    // Draw mouse joint line
+//    if ( m_mouseJoint ) {
+//        b2Vec2 p1 = m_mouseJoint->GetAnchorB();
+//        b2Vec2 p2 = m_mouseJoint->GetTarget();
+//        
+//        b2Color c;
+//        c.Set(0.0f, 1.0f, 0.0f);
+//        m_debugDraw->DrawPoint(p1, 4.0f, c);
+//        m_debugDraw->DrawPoint(p2, 4.0f, c);
+//        
+//        c.Set(0.8f, 0.8f, 0.8f);
+//        m_debugDraw->DrawSegment(p1, p2, c);
+//    }
+//	
+//	glEnable(GL_TEXTURE_2D);
+////	glEnableClientState(GL_COLOR_ARRAY);
+////	glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+//    
+//}
 
 
 // Converts a position in screen pixels to a location in the physics world
