@@ -1,0 +1,2485 @@
+{
+    "xcode_project": "RubeTest1.xcodeproj", 
+    "java_sources": [], 
+    "pchs": [
+        "./RubeTest1/Prefix.pch"
+    ], 
+    "assets": [
+        {
+            "asset": "RubeTest1/Resources/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon-Small.png", 
+            "target": "Icon-Small.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Default-Landscape~ipad.png", 
+            "target": "Default-Landscape~ipad.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon-Small-50.png", 
+            "target": "Icon-Small-50.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon-Small@2x.png", 
+            "target": "Icon-Small@2x.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon@2x.png", 
+            "target": "Icon@2x.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/iTunesArtwork", 
+            "target": "iTunesArtwork"
+        }, 
+        {
+            "asset": "RubeTest1/libs/kazmath/src/ChangeLog", 
+            "target": "ChangeLog"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/blocks.png", 
+            "target": "blocks.png"
+        }, 
+        {
+            "asset": "RubeTest1/libs/Box2D/Box2DConfig.cmake", 
+            "target": "Box2DConfig.cmake"
+        }, 
+        {
+            "asset": "RubeTest1/libs/Box2D/CMakeLists.txt", 
+            "target": "CMakeLists.txt"
+        }, 
+        {
+            "asset": "RubeTest1/README.txt", 
+            "target": "README.txt"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/hummer.json", 
+            "target": "hummer.json"
+        }
+    ], 
+    "link_flags": [], 
+    "config": {
+        "FEATURES": [
+            "opengles2", 
+            "landscape"
+        ], 
+        "APPLICATION_IDENTIFIER": "com.yourcompany.RubeTest1", 
+        "APPLICATION_NAME": "RubeTest1", 
+        "LONG_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "PRODUCT_NAME": "RubeTest1", 
+            "EXECUTABLE_NAME": "RubeTest1"
+        }, 
+        "APPLICATION_FULL_NAME": "RubeTest1"
+    }, 
+    "header_paths": [
+        {
+            "header_path": "RubeTest1.hmap", 
+            "type": "I", 
+            "hmap": {
+                "b2GrowableStack.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Common/", 
+                    "suffix": "b2GrowableStack.h", 
+                    "key": "b2GrowableStack.h"
+                }, 
+                "CCTextureCache.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTextureCache.h", 
+                    "key": "CCTextureCache.h"
+                }, 
+                "ccShader_PositionTextureColor_vert.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureColor_vert.h", 
+                    "key": "ccShader_PositionTextureColor_vert.h"
+                }, 
+                "NSThread+performBlock.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "NSThread+performBlock.h", 
+                    "key": "NSThread+performBlock.h"
+                }, 
+                "b2PrismaticJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2PrismaticJoint.h", 
+                    "key": "b2PrismaticJoint.h"
+                }, 
+                "ccShader_PositionTexture_uColor_frag.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_uColor_frag.h", 
+                    "key": "ccShader_PositionTexture_uColor_frag.h"
+                }, 
+                "CCTMXTiledMap.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTMXTiledMap.h", 
+                    "key": "CCTMXTiledMap.h"
+                }, 
+                "CCPhysicsDebugNode.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCPhysicsDebugNode.h", 
+                    "key": "CCPhysicsDebugNode.h"
+                }, 
+                "CCTouchDelegateProtocol.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCTouchDelegateProtocol.h", 
+                    "key": "CCTouchDelegateProtocol.h"
+                }, 
+                "b2MouseJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2MouseJoint.h", 
+                    "key": "b2MouseJoint.h"
+                }, 
+                "CDAudioManager.h": {
+                    "prefix": "RubeTest1/libs/CocosDenshion/", 
+                    "suffix": "CDAudioManager.h", 
+                    "key": "CDAudioManager.h"
+                }, 
+                "ccShader_PositionTexture_uColor_vert.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_uColor_vert.h", 
+                    "key": "ccShader_PositionTexture_uColor_vert.h"
+                }, 
+                "CocosDenshion.h": {
+                    "prefix": "RubeTest1/libs/CocosDenshion/", 
+                    "suffix": "CocosDenshion.h", 
+                    "key": "CocosDenshion.h"
+                }, 
+                "CCActionProgressTimer.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionProgressTimer.h", 
+                    "key": "CCActionProgressTimer.h"
+                }, 
+                "CCActionPageTurn3D.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionPageTurn3D.h", 
+                    "key": "CCActionPageTurn3D.h"
+                }, 
+                "CCAtlasNode.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCAtlasNode.h", 
+                    "key": "CCAtlasNode.h"
+                }, 
+                "CCLayer.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCLayer.h", 
+                    "key": "CCLayer.h"
+                }, 
+                "CCES2Renderer.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCES2Renderer.h", 
+                    "key": "CCES2Renderer.h"
+                }, 
+                "b2TimeOfImpact.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/", 
+                    "suffix": "b2TimeOfImpact.h", 
+                    "key": "b2TimeOfImpact.h"
+                }, 
+                "GLES-Render.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "GLES-Render.h", 
+                    "key": "GLES-Render.h"
+                }, 
+                "b2PulleyJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2PulleyJoint.h", 
+                    "key": "b2PulleyJoint.h"
+                }, 
+                "CCAnimationCache.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCAnimationCache.h", 
+                    "key": "CCAnimationCache.h"
+                }, 
+                "ccFPSImages.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccFPSImages.h", 
+                    "key": "ccFPSImages.h"
+                }, 
+                "CCGrid.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCGrid.h", 
+                    "key": "CCGrid.h"
+                }, 
+                "vec3.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "vec3.h", 
+                    "key": "vec3.h"
+                }, 
+                "ray2.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "ray2.h", 
+                    "key": "ray2.h"
+                }, 
+                "ccShader_PositionTextureA8Color_vert.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureA8Color_vert.h", 
+                    "key": "ccShader_PositionTextureA8Color_vert.h"
+                }, 
+                "BasicRUBELayer.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "BasicRUBELayer.h", 
+                    "key": "BasicRUBELayer.h"
+                }, 
+                "RUBELayer.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "RUBELayer.h", 
+                    "key": "RUBELayer.h"
+                }, 
+                "b2WheelJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2WheelJoint.h", 
+                    "key": "b2WheelJoint.h"
+                }, 
+                "HummerLayer.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "HummerLayer.h", 
+                    "key": "HummerLayer.h"
+                }, 
+                "json.h": {
+                    "prefix": "RubeTest1/rubestuff/json/", 
+                    "suffix": "json.h", 
+                    "key": "json.h"
+                }, 
+                "CCSpriteFrameCache.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCSpriteFrameCache.h", 
+                    "key": "CCSpriteFrameCache.h"
+                }, 
+                "b2WorldCallbacks.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/", 
+                    "suffix": "b2WorldCallbacks.h", 
+                    "key": "b2WorldCallbacks.h"
+                }, 
+                "CCGrabber.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCGrabber.h", 
+                    "key": "CCGrabber.h"
+                }, 
+                "CCProtocols.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCProtocols.h", 
+                    "key": "CCProtocols.h"
+                }, 
+                "ccShader_Position_uColor_frag.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_Position_uColor_frag.h", 
+                    "key": "ccShader_Position_uColor_frag.h"
+                }, 
+                "CCArray.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "CCArray.h", 
+                    "key": "CCArray.h"
+                }, 
+                "ccCArray.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "ccCArray.h", 
+                    "key": "ccCArray.h"
+                }, 
+                "CCMenu.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCMenu.h", 
+                    "key": "CCMenu.h"
+                }, 
+                "CCActionTween.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionTween.h", 
+                    "key": "CCActionTween.h"
+                }, 
+                "CCTouchHandler.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCTouchHandler.h", 
+                    "key": "CCTouchHandler.h"
+                }, 
+                "ccShader_PositionColor_frag.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionColor_frag.h", 
+                    "key": "ccShader_PositionColor_frag.h"
+                }, 
+                "b2EdgeAndPolygonContact.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Contacts/", 
+                    "suffix": "b2EdgeAndPolygonContact.h", 
+                    "key": "b2EdgeAndPolygonContact.h"
+                }, 
+                "CCEventDispatcher.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/Mac/", 
+                    "suffix": "CCEventDispatcher.h", 
+                    "key": "CCEventDispatcher.h"
+                }, 
+                "b2Rope.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Rope/", 
+                    "suffix": "b2Rope.h", 
+                    "key": "b2Rope.h"
+                }, 
+                "b2Joint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2Joint.h", 
+                    "key": "b2Joint.h"
+                }, 
+                "ccShader_PositionTextureColor_frag.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureColor_frag.h", 
+                    "key": "ccShader_PositionTextureColor_frag.h"
+                }, 
+                "CCTransitionProgress.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTransitionProgress.h", 
+                    "key": "CCTransitionProgress.h"
+                }, 
+                "ccShader_Position_uColor_vert.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_Position_uColor_vert.h", 
+                    "key": "ccShader_Position_uColor_vert.h"
+                }, 
+                "CDOpenALSupport.h": {
+                    "prefix": "RubeTest1/libs/CocosDenshion/", 
+                    "suffix": "CDOpenALSupport.h", 
+                    "key": "CDOpenALSupport.h"
+                }, 
+                "ccShader_PositionColor_vert.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionColor_vert.h", 
+                    "key": "ccShader_PositionColor_vert.h"
+                }, 
+                "Box2D.h": {
+                    "prefix": "RubeTest1/libs/Box2D/", 
+                    "suffix": "Box2D.h", 
+                    "key": "Box2D.h"
+                }, 
+                "CCVertex.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "CCVertex.h", 
+                    "key": "CCVertex.h"
+                }, 
+                "CCActionEase.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionEase.h", 
+                    "key": "CCActionEase.h"
+                }, 
+                "b2PolygonShape.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/Shapes/", 
+                    "suffix": "b2PolygonShape.h", 
+                    "key": "b2PolygonShape.h"
+                }, 
+                "TransformUtils.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "TransformUtils.h", 
+                    "key": "TransformUtils.h"
+                }, 
+                "json-forwards.h": {
+                    "prefix": "RubeTest1/rubestuff/json/", 
+                    "suffix": "json-forwards.h", 
+                    "key": "json-forwards.h"
+                }, 
+                "CCSprite.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCSprite.h", 
+                    "key": "CCSprite.h"
+                }, 
+                "neon_matrix_impl.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "neon_matrix_impl.h", 
+                    "key": "neon_matrix_impl.h"
+                }, 
+                "ccGLStateCache.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccGLStateCache.h", 
+                    "key": "ccGLStateCache.h"
+                }, 
+                "CDXPropertyModifierAction.h": {
+                    "prefix": "RubeTest1/libs/CocosDenshion/", 
+                    "suffix": "CDXPropertyModifierAction.h", 
+                    "key": "CDXPropertyModifierAction.h"
+                }, 
+                "CCParallaxNode.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCParallaxNode.h", 
+                    "key": "CCParallaxNode.h"
+                }, 
+                "kazmath.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "kazmath.h", 
+                    "key": "kazmath.h"
+                }, 
+                "b2Body.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/", 
+                    "suffix": "b2Body.h", 
+                    "key": "b2Body.h"
+                }, 
+                "CDXMacOSXSupport.h": {
+                    "prefix": "RubeTest1/libs/CocosDenshion/", 
+                    "suffix": "CDXMacOSXSupport.h", 
+                    "key": "CDXMacOSXSupport.h"
+                }, 
+                "CCConfiguration.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCConfiguration.h", 
+                    "key": "CCConfiguration.h"
+                }, 
+                "CCRenderTexture.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCRenderTexture.h", 
+                    "key": "CCRenderTexture.h"
+                }, 
+                "vec4.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "vec4.h", 
+                    "key": "vec4.h"
+                }, 
+                "CCActionGrid3D.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionGrid3D.h", 
+                    "key": "CCActionGrid3D.h"
+                }, 
+                "TGAlib.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "TGAlib.h", 
+                    "key": "TGAlib.h"
+                }, 
+                "mat3.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "mat3.h", 
+                    "key": "mat3.h"
+                }, 
+                "utlist.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "utlist.h", 
+                    "key": "utlist.h"
+                }, 
+                "CCTouchDispatcher.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCTouchDispatcher.h", 
+                    "key": "CCTouchDispatcher.h"
+                }, 
+                "CCScene.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCScene.h", 
+                    "key": "CCScene.h"
+                }, 
+                "b2CircleShape.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/Shapes/", 
+                    "suffix": "b2CircleShape.h", 
+                    "key": "b2CircleShape.h"
+                }, 
+                "b2Contact.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Contacts/", 
+                    "suffix": "b2Contact.h", 
+                    "key": "b2Contact.h"
+                }, 
+                "CCActionTiledGrid.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionTiledGrid.h", 
+                    "key": "CCActionTiledGrid.h"
+                }, 
+                "OpenGL_Internal.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "OpenGL_Internal.h", 
+                    "key": "OpenGL_Internal.h"
+                }, 
+                "CCParticleSystem.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCParticleSystem.h", 
+                    "key": "CCParticleSystem.h"
+                }, 
+                "SimpleAudioEngine.h": {
+                    "prefix": "RubeTest1/libs/CocosDenshion/", 
+                    "suffix": "SimpleAudioEngine.h", 
+                    "key": "SimpleAudioEngine.h"
+                }, 
+                "b2ContactSolver.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Contacts/", 
+                    "suffix": "b2ContactSolver.h", 
+                    "key": "b2ContactSolver.h"
+                }, 
+                "b2World.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/", 
+                    "suffix": "b2World.h", 
+                    "key": "b2World.h"
+                }, 
+                "ccShaders.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShaders.h", 
+                    "key": "ccShaders.h"
+                }, 
+                "CGPointExtension.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "CGPointExtension.h", 
+                    "key": "CGPointExtension.h"
+                }, 
+                "b2Math.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Common/", 
+                    "suffix": "b2Math.h", 
+                    "key": "b2Math.h"
+                }, 
+                "plane.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "plane.h", 
+                    "key": "plane.h"
+                }, 
+                "b2Fixture.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/", 
+                    "suffix": "b2Fixture.h", 
+                    "key": "b2Fixture.h"
+                }, 
+                "ccShader_PositionColorLengthTexture_vert.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionColorLengthTexture_vert.h", 
+                    "key": "ccShader_PositionColorLengthTexture_vert.h"
+                }, 
+                "b2RevoluteJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2RevoluteJoint.h", 
+                    "key": "b2RevoluteJoint.h"
+                }, 
+                "CCTileMapAtlas.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTileMapAtlas.h", 
+                    "key": "CCTileMapAtlas.h"
+                }, 
+                "HelloWorldLayer.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "HelloWorldLayer.h", 
+                    "key": "HelloWorldLayer.h"
+                }, 
+                "b2CircleContact.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Contacts/", 
+                    "suffix": "b2CircleContact.h", 
+                    "key": "b2CircleContact.h"
+                }, 
+                "CCClippingNode.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCClippingNode.h", 
+                    "key": "CCClippingNode.h"
+                }, 
+                "b2dJsonImage.h": {
+                    "prefix": "RubeTest1/rubestuff/", 
+                    "suffix": "b2dJsonImage.h", 
+                    "key": "b2dJsonImage.h"
+                }, 
+                "CCAnimation.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCAnimation.h", 
+                    "key": "CCAnimation.h"
+                }, 
+                "b2GearJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2GearJoint.h", 
+                    "key": "b2GearJoint.h"
+                }, 
+                "b2BlockAllocator.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Common/", 
+                    "suffix": "b2BlockAllocator.h", 
+                    "key": "b2BlockAllocator.h"
+                }, 
+                "ZipUtils.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "ZipUtils.h", 
+                    "key": "ZipUtils.h"
+                }, 
+                "Prefix.pch": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "Prefix.pch", 
+                    "key": "Prefix.pch"
+                }, 
+                "CCLabelBMFont.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCLabelBMFont.h", 
+                    "key": "CCLabelBMFont.h"
+                }, 
+                "quaternion.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "quaternion.h", 
+                    "key": "quaternion.h"
+                }, 
+                "CCDirectorMac.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/Mac/", 
+                    "suffix": "CCDirectorMac.h", 
+                    "key": "CCDirectorMac.h"
+                }, 
+                "CCProfiling.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "CCProfiling.h", 
+                    "key": "CCProfiling.h"
+                }, 
+                "RUBEImageInfo.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "RUBEImageInfo.h", 
+                    "key": "RUBEImageInfo.h"
+                }, 
+                "CCGL.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/", 
+                    "suffix": "CCGL.h", 
+                    "key": "CCGL.h"
+                }, 
+                "ccConfig.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccConfig.h", 
+                    "key": "ccConfig.h"
+                }, 
+                "CCActionCatmullRom.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionCatmullRom.h", 
+                    "key": "CCActionCatmullRom.h"
+                }, 
+                "b2Timer.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Common/", 
+                    "suffix": "b2Timer.h", 
+                    "key": "b2Timer.h"
+                }, 
+                "CCGLProgram.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCGLProgram.h", 
+                    "key": "CCGLProgram.h"
+                }, 
+                "b2DynamicTree.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/", 
+                    "suffix": "b2DynamicTree.h", 
+                    "key": "b2DynamicTree.h"
+                }, 
+                "CCActionInstant.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionInstant.h", 
+                    "key": "CCActionInstant.h"
+                }, 
+                "CCFileUtils.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "CCFileUtils.h", 
+                    "key": "CCFileUtils.h"
+                }, 
+                "ccShader_PositionColorLengthTexture_frag.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionColorLengthTexture_frag.h", 
+                    "key": "ccShader_PositionColorLengthTexture_frag.h"
+                }, 
+                "CCActionManager.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionManager.h", 
+                    "key": "CCActionManager.h"
+                }, 
+                "CCMotionStreak.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCMotionStreak.h", 
+                    "key": "CCMotionStreak.h"
+                }, 
+                "CCDrawNode.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCDrawNode.h", 
+                    "key": "CCDrawNode.h"
+                }, 
+                "b2Collision.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/", 
+                    "suffix": "b2Collision.h", 
+                    "key": "b2Collision.h"
+                }, 
+                "CCDirectorIOS.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCDirectorIOS.h", 
+                    "key": "CCDirectorIOS.h"
+                }, 
+                "matrix.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/GL/", 
+                    "suffix": "matrix.h", 
+                    "key": "matrix.h"
+                }, 
+                "QueryCallbacks.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "QueryCallbacks.h", 
+                    "key": "QueryCallbacks.h"
+                }, 
+                "CCActionInterval.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionInterval.h", 
+                    "key": "CCActionInterval.h"
+                }, 
+                "b2RopeJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2RopeJoint.h", 
+                    "key": "b2RopeJoint.h"
+                }, 
+                "CCAction.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCAction.h", 
+                    "key": "CCAction.h"
+                }, 
+                "CCSpriteBatchNode.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCSpriteBatchNode.h", 
+                    "key": "CCSpriteBatchNode.h"
+                }, 
+                "CCTMXObjectGroup.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTMXObjectGroup.h", 
+                    "key": "CCTMXObjectGroup.h"
+                }, 
+                "uthash.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "uthash.h", 
+                    "key": "uthash.h"
+                }, 
+                "CCPhysicsSprite.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCPhysicsSprite.h", 
+                    "key": "CCPhysicsSprite.h"
+                }, 
+                "CCTMXXMLParser.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTMXXMLParser.h", 
+                    "key": "CCTMXXMLParser.h"
+                }, 
+                "ccTypes.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccTypes.h", 
+                    "key": "ccTypes.h"
+                }, 
+                "b2ChainShape.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/Shapes/", 
+                    "suffix": "b2ChainShape.h", 
+                    "key": "b2ChainShape.h"
+                }, 
+                "CCActionCamera.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionCamera.h", 
+                    "key": "CCActionCamera.h"
+                }, 
+                "b2Draw.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Common/", 
+                    "suffix": "b2Draw.h", 
+                    "key": "b2Draw.h"
+                }, 
+                "b2EdgeShape.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/Shapes/", 
+                    "suffix": "b2EdgeShape.h", 
+                    "key": "b2EdgeShape.h"
+                }, 
+                "CDConfig.h": {
+                    "prefix": "RubeTest1/libs/CocosDenshion/", 
+                    "suffix": "CDConfig.h", 
+                    "key": "CDConfig.h"
+                }, 
+                "CCLabelTTF.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCLabelTTF.h", 
+                    "key": "CCLabelTTF.h"
+                }, 
+                "CCDrawingPrimitives.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCDrawingPrimitives.h", 
+                    "key": "CCDrawingPrimitives.h"
+                }, 
+                "b2Settings.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Common/", 
+                    "suffix": "b2Settings.h", 
+                    "key": "b2Settings.h"
+                }, 
+                "cocos2d.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "cocos2d.h", 
+                    "key": "cocos2d.h"
+                }, 
+                "b2DistanceJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2DistanceJoint.h", 
+                    "key": "b2DistanceJoint.h"
+                }, 
+                "mat4stack.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/GL/", 
+                    "suffix": "mat4stack.h", 
+                    "key": "mat4stack.h"
+                }, 
+                "b2ChainAndPolygonContact.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Contacts/", 
+                    "suffix": "b2ChainAndPolygonContact.h", 
+                    "key": "b2ChainAndPolygonContact.h"
+                }, 
+                "CCNS.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/", 
+                    "suffix": "CCNS.h", 
+                    "key": "CCNS.h"
+                }, 
+                "b2Distance.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/", 
+                    "suffix": "b2Distance.h", 
+                    "key": "b2Distance.h"
+                }, 
+                "CCTMXLayer.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTMXLayer.h", 
+                    "key": "CCTMXLayer.h"
+                }, 
+                "b2FrictionJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2FrictionJoint.h", 
+                    "key": "b2FrictionJoint.h"
+                }, 
+                "b2WeldJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2WeldJoint.h", 
+                    "key": "b2WeldJoint.h"
+                }, 
+                "mat4.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "mat4.h", 
+                    "key": "mat4.h"
+                }, 
+                "CCSpriteFrame.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCSpriteFrame.h", 
+                    "key": "CCSpriteFrame.h"
+                }, 
+                "CCScheduler.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCScheduler.h", 
+                    "key": "CCScheduler.h"
+                }, 
+                "ccShader_PositionTextureColorAlphaTest_frag.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureColorAlphaTest_frag.h", 
+                    "key": "ccShader_PositionTextureColorAlphaTest_frag.h"
+                }, 
+                "CCESRenderer.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCESRenderer.h", 
+                    "key": "CCESRenderer.h"
+                }, 
+                "CCTransitionPageTurn.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTransitionPageTurn.h", 
+                    "key": "CCTransitionPageTurn.h"
+                }, 
+                "base64.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "base64.h", 
+                    "key": "base64.h"
+                }, 
+                "ccDeprecated.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccDeprecated.h", 
+                    "key": "ccDeprecated.h"
+                }, 
+                "b2TimeStep.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/", 
+                    "suffix": "b2TimeStep.h", 
+                    "key": "b2TimeStep.h"
+                }, 
+                "CCParticleBatchNode.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCParticleBatchNode.h", 
+                    "key": "CCParticleBatchNode.h"
+                }, 
+                "b2BroadPhase.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/", 
+                    "suffix": "b2BroadPhase.h", 
+                    "key": "b2BroadPhase.h"
+                }, 
+                "ccShader_PositionTextureA8Color_frag.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureA8Color_frag.h", 
+                    "key": "ccShader_PositionTextureA8Color_frag.h"
+                }, 
+                "CCActionGrid.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCActionGrid.h", 
+                    "key": "CCActionGrid.h"
+                }, 
+                "CCTransition.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTransition.h", 
+                    "key": "CCTransition.h"
+                }, 
+                "b2Shape.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Collision/Shapes/", 
+                    "suffix": "b2Shape.h", 
+                    "key": "b2Shape.h"
+                }, 
+                "b2dJson.h": {
+                    "prefix": "RubeTest1/rubestuff/", 
+                    "suffix": "b2dJson.h", 
+                    "key": "b2dJson.h"
+                }, 
+                "CCGLView.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCGLView.h", 
+                    "key": "CCGLView.h"
+                }, 
+                "b2ChainAndCircleContact.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Contacts/", 
+                    "suffix": "b2ChainAndCircleContact.h", 
+                    "key": "b2ChainAndCircleContact.h"
+                }, 
+                "CCParticleSystemQuad.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCParticleSystemQuad.h", 
+                    "key": "CCParticleSystemQuad.h"
+                }, 
+                "vec2.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "vec2.h", 
+                    "key": "vec2.h"
+                }, 
+                "ccMacros.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccMacros.h", 
+                    "key": "ccMacros.h"
+                }, 
+                "ccShader_PositionTexture_vert.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_vert.h", 
+                    "key": "ccShader_PositionTexture_vert.h"
+                }, 
+                "b2EdgeAndCircleContact.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Contacts/", 
+                    "suffix": "b2EdgeAndCircleContact.h", 
+                    "key": "b2EdgeAndCircleContact.h"
+                }, 
+                "CCLabelAtlas.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCLabelAtlas.h", 
+                    "key": "CCLabelAtlas.h"
+                }, 
+                "AppDelegate.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "AppDelegate.h", 
+                    "key": "AppDelegate.h"
+                }, 
+                "b2PolygonContact.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Contacts/", 
+                    "suffix": "b2PolygonContact.h", 
+                    "key": "b2PolygonContact.h"
+                }, 
+                "b2ContactManager.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/", 
+                    "suffix": "b2ContactManager.h", 
+                    "key": "b2ContactManager.h"
+                }, 
+                "CCParticleExamples.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCParticleExamples.h", 
+                    "key": "CCParticleExamples.h"
+                }, 
+                "aabb.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "aabb.h", 
+                    "key": "aabb.h"
+                }, 
+                "CCTexture2D.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTexture2D.h", 
+                    "key": "CCTexture2D.h"
+                }, 
+                "b2Island.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/", 
+                    "suffix": "b2Island.h", 
+                    "key": "b2Island.h"
+                }, 
+                "CCTextureAtlas.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTextureAtlas.h", 
+                    "key": "CCTextureAtlas.h"
+                }, 
+                "utility.h": {
+                    "prefix": "RubeTest1/libs/kazmath/include/kazmath/", 
+                    "suffix": "utility.h", 
+                    "key": "utility.h"
+                }, 
+                "b2MotorJoint.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Joints/", 
+                    "suffix": "b2MotorJoint.h", 
+                    "key": "b2MotorJoint.h"
+                }, 
+                "IntroLayer.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "IntroLayer.h", 
+                    "key": "IntroLayer.h"
+                }, 
+                "b2PolygonAndCircleContact.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Dynamics/Contacts/", 
+                    "suffix": "b2PolygonAndCircleContact.h", 
+                    "key": "b2PolygonAndCircleContact.h"
+                }, 
+                "CCWindow.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Platforms/Mac/", 
+                    "suffix": "CCWindow.h", 
+                    "key": "CCWindow.h"
+                }, 
+                "CCShaderCache.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCShaderCache.h", 
+                    "key": "CCShaderCache.h"
+                }, 
+                "CCProgressTimer.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCProgressTimer.h", 
+                    "key": "CCProgressTimer.h"
+                }, 
+                "CCNode.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCNode.h", 
+                    "key": "CCNode.h"
+                }, 
+                "CCTexturePVR.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCTexturePVR.h", 
+                    "key": "CCTexturePVR.h"
+                }, 
+                "ccUtils.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/Support/", 
+                    "suffix": "ccUtils.h", 
+                    "key": "ccUtils.h"
+                }, 
+                "b2StackAllocator.h": {
+                    "prefix": "RubeTest1/libs/Box2D/Common/", 
+                    "suffix": "b2StackAllocator.h", 
+                    "key": "b2StackAllocator.h"
+                }, 
+                "ccShader_PositionTexture_frag.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_frag.h", 
+                    "key": "ccShader_PositionTexture_frag.h"
+                }, 
+                "CCDirector.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCDirector.h", 
+                    "key": "CCDirector.h"
+                }, 
+                "CCMenuItem.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCMenuItem.h", 
+                    "key": "CCMenuItem.h"
+                }, 
+                "CCCamera.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCCamera.h", 
+                    "key": "CCCamera.h"
+                }, 
+                "CCNode+Debug.h": {
+                    "prefix": "RubeTest1/libs/cocos2d/", 
+                    "suffix": "CCNode+Debug.h", 
+                    "key": "CCNode+Debug.h"
+                }
+            }
+        }, 
+        {
+            "header_path": "RubeTest1/libs", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "RubeTest1/libs/kazmath/include", 
+            "type": "I"
+        }
+    ], 
+    "modules": [], 
+    "sources": [
+        {
+            "source": "RubeTest1/AppDelegate.mm", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/BasicRUBELayer.mm", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/GLES-Render.mm", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/HelloWorldLayer.mm", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/HummerLayer.mm", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/IntroLayer.mm", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/RUBEImageInfo.mm", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/RUBELayer.mm", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/Shapes/b2ChainShape.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/Shapes/b2CircleShape.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/Shapes/b2EdgeShape.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/Shapes/b2PolygonShape.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/b2BroadPhase.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/b2CollideCircle.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/b2CollideEdge.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/b2CollidePolygon.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/b2Collision.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/b2Distance.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/b2DynamicTree.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Collision/b2TimeOfImpact.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Common/b2BlockAllocator.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Common/b2Draw.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Common/b2Math.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Common/b2Settings.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Common/b2StackAllocator.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Common/b2Timer.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Contacts/b2CircleContact.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Contacts/b2Contact.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Contacts/b2ContactSolver.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Contacts/b2PolygonContact.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2DistanceJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2FrictionJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2GearJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2Joint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2MotorJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2MouseJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2PulleyJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2RopeJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2WeldJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/Joints/b2WheelJoint.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/b2Body.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/b2ContactManager.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/b2Fixture.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/b2Island.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/b2World.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Dynamics/b2WorldCallbacks.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/Box2D/Rope/b2Rope.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/CocosDenshion/CDAudioManager.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/CocosDenshion/CDOpenALSupport.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/CocosDenshion/CDXMacOSXSupport.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/CocosDenshion/CDXPropertyModifierAction.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/CocosDenshion/CocosDenshion.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/CocosDenshion/SimpleAudioEngine.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCAction.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionCamera.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionCatmullRom.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionEase.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionGrid.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionGrid3D.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionInstant.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionInterval.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionManager.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionPageTurn3D.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionProgressTimer.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionTiledGrid.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCActionTween.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCAnimation.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCAnimationCache.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCAtlasNode.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCCamera.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCClippingNode.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCConfiguration.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCDirector.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCDrawNode.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCDrawingPrimitives.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCGLProgram.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCGrabber.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCGrid.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCLabelAtlas.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCLabelBMFont.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCLabelTTF.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCLayer.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCMenu.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCMenuItem.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCMotionStreak.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCNode+Debug.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCNode.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCParallaxNode.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCParticleBatchNode.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCParticleExamples.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCParticleSystem.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCParticleSystemQuad.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCPhysicsDebugNode.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCPhysicsSprite.mm", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCProgressTimer.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCRenderTexture.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCScene.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCScheduler.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCShaderCache.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCSprite.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCSpriteBatchNode.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCSpriteFrame.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCSpriteFrameCache.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTMXLayer.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTMXObjectGroup.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTMXTiledMap.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTMXXMLParser.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTexture2D.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTextureAtlas.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTextureCache.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTexturePVR.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTileMapAtlas.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTransition.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTransitionPageTurn.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/CCTransitionProgress.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Platforms/Mac/CCDirectorMac.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Platforms/Mac/CCEventDispatcher.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Platforms/Mac/CCGLView.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Platforms/Mac/CCWindow.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Platforms/iOS/CCDirectorIOS.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Platforms/iOS/CCES2Renderer.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Platforms/iOS/CCGLView.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Platforms/iOS/CCTouchHandler.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/CCArray.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/CCFileUtils.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/CCProfiling.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/CCVertex.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/CGPointExtension.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/NSThread+performBlock.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/TGAlib.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/TransformUtils.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/ZipUtils.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/base64.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/ccCArray.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/Support/ccUtils.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/ccDeprecated.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/ccFPSImages.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/ccGLStateCache.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/ccShaders.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/cocos2d/cocos2d.m", 
+            "header_paths": [], 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/GL/mat4stack.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/GL/matrix.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/aabb.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/mat3.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/mat4.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/neon_matrix_impl.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/plane.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/quaternion.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/ray2.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/utility.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/vec2.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/vec3.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/libs/kazmath/src/vec4.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/main.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/rubestuff/b2dJson.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/rubestuff/b2dJsonImage.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/rubestuff/jsoncpp.cpp", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c++", 
+            "defines": {}
+        }
+    ], 
+    "version": "1", 
+    "flags": [
+        "-fwritable-strings", 
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "infoplists": [
+        "./RubeTest1/Resources/Info.plist"
+    ], 
+    "deps": [
+        "UIKit", 
+        "QuartzCore", 
+        "OpenGLES", 
+        "OpenAL", 
+        "AudioToolbox", 
+        "AVFoundation", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics", 
+        "GameKit"
+    ], 
+    "libs": [
+        "z", 
+        "sqlite3"
+    ], 
+    "java_sourcepaths": [], 
+    "java_res_dirs": [], 
+    "type": "app", 
+    "java_libs": [], 
+    "defines": {
+        "NDEBUG": 1, 
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "CC_ENABLE_BOX2D_INTEGRATION": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40000
+    }
+}

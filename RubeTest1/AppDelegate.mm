@@ -59,6 +59,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+#ifdef ANDROID
+//    [UIScreen mainScreen].currentMode = [UIScreenMode emulatedMode:UIScreenIPhone3GEmulationMode];
+    
+    
+#endif
+    
 	// Create the main window
 	window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
