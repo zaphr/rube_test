@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26F3D62917879F1400453D0F /* plane.json in Resources */ = {isa = PBXBuildFile; fileRef = 26F3D62817879F1400453D0F /* plane.json */; };
+		26F3D62D17879FBE00453D0F /* plane_trace_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F3D62C17879FBE00453D0F /* plane_trace_shadow.png */; };
+		26F3D62F178B6DDC00453D0F /* template.json in Resources */ = {isa = PBXBuildFile; fileRef = 26F3D62E178B6DDC00453D0F /* template.json */; };
+		26F3D632178B6E7A00453D0F /* TemplateLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26F3D630178B6E7900453D0F /* TemplateLayer.mm */; };
 		26FC1F54175C36A7004E0752 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FC1F53175C36A7004E0752 /* QuartzCore.framework */; };
 		26FC1F56175C36A7004E0752 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FC1F55175C36A7004E0752 /* OpenGLES.framework */; };
 		26FC1F58175C36A7004E0752 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FC1F57175C36A7004E0752 /* OpenAL.framework */; };
@@ -201,6 +205,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26F3D62817879F1400453D0F /* plane.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = plane.json; path = Resources/plane.json; sourceTree = "<group>"; };
+		26F3D62C17879FBE00453D0F /* plane_trace_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane_trace_shadow.png; path = Resources/plane_trace_shadow.png; sourceTree = "<group>"; };
+		26F3D62E178B6DDC00453D0F /* template.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = template.json; path = Resources/template.json; sourceTree = "<group>"; };
+		26F3D630178B6E7900453D0F /* TemplateLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TemplateLayer.mm; sourceTree = "<group>"; };
+		26F3D631178B6E7A00453D0F /* TemplateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateLayer.h; sourceTree = "<group>"; };
 		26FC1F50175C36A7004E0752 /* RubeTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubeTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FC1F53175C36A7004E0752 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		26FC1F55175C36A7004E0752 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -661,6 +670,8 @@
 				26FC2492175C4537004E0752 /* RUBEImageInfo.mm */,
 				26FC2493175C4537004E0752 /* RUBELayer.h */,
 				26FC2494175C4537004E0752 /* RUBELayer.mm */,
+				26F3D630178B6E7900453D0F /* TemplateLayer.mm */,
+				26F3D631178B6E7A00453D0F /* TemplateLayer.h */,
 				26FC249A175E016E004E0752 /* HummerLayer.h */,
 				26FC249B175E016E004E0752 /* HummerLayer.mm */,
 				26FC2186175C36AA004E0752 /* AppDelegate.h */,
@@ -682,6 +693,9 @@
 		26FC1F66175C36A7004E0752 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				26F3D62E178B6DDC00453D0F /* template.json */,
+				26F3D62817879F1400453D0F /* plane.json */,
+				26F3D62C17879FBE00453D0F /* plane_trace_shadow.png */,
 				26FC249D175E0A30004E0752 /* hummer.json */,
 				26FC1F67175C36A7004E0752 /* Default.png */,
 				26FC1F69175C36A7004E0752 /* Default@2x.png */,
@@ -1312,6 +1326,9 @@
 				26FC2453175C439C004E0752 /* CMakeLists.txt in Resources */,
 				26FC2499175E00FD004E0752 /* README.txt in Resources */,
 				26FC249E175E0A30004E0752 /* hummer.json in Resources */,
+				26F3D62917879F1400453D0F /* plane.json in Resources */,
+				26F3D62D17879FBE00453D0F /* plane_trace_shadow.png in Resources */,
+				26F3D62F178B6DDC00453D0F /* template.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1487,6 +1504,7 @@
 				26FC2496175C4537004E0752 /* RUBEImageInfo.mm in Sources */,
 				26FC2497175C4537004E0752 /* RUBELayer.mm in Sources */,
 				26FC249C175E016E004E0752 /* HummerLayer.mm in Sources */,
+				26F3D632178B6E7A00453D0F /* TemplateLayer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1549,12 +1567,14 @@
 				);
 				HEADER_SEARCH_PATHS = "\"RubeTest1/libs/kazmath/include\"";
 				INFOPLIST_FILE = RubeTest1/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"RubeTest1/libs\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1575,12 +1595,14 @@
 				);
 				HEADER_SEARCH_PATHS = "\"RubeTest1/libs/kazmath/include\"";
 				INFOPLIST_FILE = RubeTest1/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"RubeTest1/libs\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -1606,6 +1628,7 @@
 				26FC2198175C36AA004E0752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

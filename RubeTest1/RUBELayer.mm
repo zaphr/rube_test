@@ -92,6 +92,10 @@
         
         // these will not change during simulation so we can set them now
 //    TODO    [sprite setScale:img->scale / [sprite contentSizeInPixels].height * contentScaleFactor];
+        CCLOG(@"contentScaleFactor: %f", contentScaleFactor);
+//        [sprite setScale:img->scale / contentScaleFactor];
+        [sprite setScale:0.1 ];
+        
         [sprite setFlipX:img->flip];
         [sprite setColor:ccc3(img->colorTint[0], img->colorTint[1], img->colorTint[2])];
         [sprite setOpacity:img->colorTint[3]];

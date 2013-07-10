@@ -290,6 +290,7 @@
 // Standard Cocos2d method. Here we make a mouse joint to drag dynamic bodies around.
 - (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    NSLog(@"got touch");
     // Only make one mouse joint at a time!
     if ( m_mouseJoint )
         return;
@@ -322,6 +323,7 @@
         m_mouseJoint = (b2MouseJoint*)m_world->CreateJoint(&md);
         body->SetAwake(true);
     }
+
 }
 
 

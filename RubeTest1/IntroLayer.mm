@@ -10,7 +10,8 @@
 // Import the interfaces
 #import "IntroLayer.h"
 //#import "HelloWorldLayer.h"
-#import "HummerLayer.h"
+//#import "HummerLayer.h"
+#import "TemplateLayer.h"
 
 #pragma mark - IntroLayer
 
@@ -61,6 +62,6 @@
 -(void) onEnter
 {
 	[super onEnter];
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HummerLayer scene] ]];
+	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[TemplateLayer scene] ]];
 }
 @end

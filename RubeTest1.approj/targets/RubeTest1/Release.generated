@@ -58,6 +58,13 @@
             "defines": {}
         }, 
         {
+            "language": "objc++", 
+            "header_paths": [], 
+            "source": "RubeTest1/TemplateLayer.mm", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
             "language": "c++", 
             "header_paths": [], 
             "source": "RubeTest1/libs/Box2D/Collision/Shapes/b2ChainShape.cpp", 
@@ -1352,39 +1359,39 @@
         "NS_BLOCK_ASSERTIONS": 1, 
         "CC_ENABLE_BOX2D_INTEGRATION": 1, 
         "NDEBUG": 1, 
-        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40000
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60100
     }, 
     "pchs": [
         "./RubeTest1/Prefix.pch"
     ], 
     "assets": [
         {
+            "asset": "RubeTest1/Resources/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
             "asset": "RubeTest1/Resources/Default.png", 
             "target": "Default.png"
-        }, 
-        {
-            "asset": "RubeTest1/Resources/Icon-Small.png", 
-            "target": "Icon-Small.png"
-        }, 
-        {
-            "asset": "RubeTest1/Resources/Default-Landscape~ipad.png", 
-            "target": "Default-Landscape~ipad.png"
         }, 
         {
             "asset": "RubeTest1/Resources/Icon-72.png", 
             "target": "Icon-72.png"
         }, 
         {
-            "asset": "RubeTest1/Resources/Icon-Small-50.png", 
-            "target": "Icon-Small-50.png"
-        }, 
-        {
-            "asset": "RubeTest1/Resources/Default@2x.png", 
-            "target": "Default@2x.png"
+            "asset": "RubeTest1/Resources/Default-Landscape~ipad.png", 
+            "target": "Default-Landscape~ipad.png"
         }, 
         {
             "asset": "RubeTest1/Resources/Default-568h@2x.png", 
             "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon-Small-50.png", 
+            "target": "Icon-Small-50.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon-Small.png", 
+            "target": "Icon-Small.png"
         }, 
         {
             "asset": "RubeTest1/Resources/Icon-Small@2x.png", 
@@ -1425,6 +1432,18 @@
         {
             "asset": "RubeTest1/Resources/hummer.json", 
             "target": "hummer.json"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/plane.json", 
+            "target": "plane.json"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/plane_trace_shadow.png", 
+            "target": "plane_trace_shadow.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/template.json", 
+            "target": "template.json"
         }
     ], 
     "type": "app", 
@@ -2402,6 +2421,11 @@
                     "prefix": "RubeTest1/libs/cocos2d/", 
                     "suffix": "CCCamera.h", 
                     "key": "CCCamera.h"
+                }, 
+                "TemplateLayer.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "TemplateLayer.h", 
+                    "key": "TemplateLayer.h"
                 }, 
                 "CCDirectorMac.h": {
                     "prefix": "RubeTest1/libs/cocos2d/Platforms/Mac/", 

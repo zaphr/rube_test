@@ -6,32 +6,32 @@
     ], 
     "assets": [
         {
+            "asset": "RubeTest1/Resources/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
             "asset": "RubeTest1/Resources/Default.png", 
             "target": "Default.png"
-        }, 
-        {
-            "asset": "RubeTest1/Resources/Icon-Small.png", 
-            "target": "Icon-Small.png"
-        }, 
-        {
-            "asset": "RubeTest1/Resources/Default-Landscape~ipad.png", 
-            "target": "Default-Landscape~ipad.png"
         }, 
         {
             "asset": "RubeTest1/Resources/Icon-72.png", 
             "target": "Icon-72.png"
         }, 
         {
-            "asset": "RubeTest1/Resources/Icon-Small-50.png", 
-            "target": "Icon-Small-50.png"
-        }, 
-        {
-            "asset": "RubeTest1/Resources/Default@2x.png", 
-            "target": "Default@2x.png"
+            "asset": "RubeTest1/Resources/Default-Landscape~ipad.png", 
+            "target": "Default-Landscape~ipad.png"
         }, 
         {
             "asset": "RubeTest1/Resources/Default-568h@2x.png", 
             "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon-Small-50.png", 
+            "target": "Icon-Small-50.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon-Small.png", 
+            "target": "Icon-Small.png"
         }, 
         {
             "asset": "RubeTest1/Resources/Icon-Small@2x.png", 
@@ -72,6 +72,18 @@
         {
             "asset": "RubeTest1/Resources/hummer.json", 
             "target": "hummer.json"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/plane.json", 
+            "target": "plane.json"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/plane_trace_shadow.png", 
+            "target": "plane_trace_shadow.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/template.json", 
+            "target": "template.json"
         }
     ], 
     "link_flags": [], 
@@ -1064,6 +1076,11 @@
                     "suffix": "CCCamera.h", 
                     "key": "CCCamera.h"
                 }, 
+                "TemplateLayer.h": {
+                    "prefix": "RubeTest1/", 
+                    "suffix": "TemplateLayer.h", 
+                    "key": "TemplateLayer.h"
+                }, 
                 "CCNode+Debug.h": {
                     "prefix": "RubeTest1/libs/cocos2d/", 
                     "suffix": "CCNode+Debug.h", 
@@ -1133,6 +1150,13 @@
         }, 
         {
             "source": "RubeTest1/RUBELayer.mm", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc++", 
+            "defines": {}
+        }, 
+        {
+            "source": "RubeTest1/TemplateLayer.mm", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc++", 
@@ -2480,6 +2504,6 @@
         "NDEBUG": 1, 
         "NS_BLOCK_ASSERTIONS": 1, 
         "CC_ENABLE_BOX2D_INTEGRATION": 1, 
-        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40000
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60100
     }
 }
