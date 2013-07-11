@@ -6,16 +6,16 @@
     ], 
     "assets": [
         {
-            "asset": "RubeTest1/Resources/Default@2x.png", 
-            "target": "Default@2x.png"
+            "asset": "RubeTest1/Resources/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Icon-Small-50.png", 
+            "target": "Icon-Small-50.png"
         }, 
         {
             "asset": "RubeTest1/Resources/Default.png", 
             "target": "Default.png"
-        }, 
-        {
-            "asset": "RubeTest1/Resources/Icon-72.png", 
-            "target": "Icon-72.png"
         }, 
         {
             "asset": "RubeTest1/Resources/Default-Landscape~ipad.png", 
@@ -26,12 +26,12 @@
             "target": "Default-568h@2x.png"
         }, 
         {
-            "asset": "RubeTest1/Resources/Icon-Small-50.png", 
-            "target": "Icon-Small-50.png"
-        }, 
-        {
             "asset": "RubeTest1/Resources/Icon-Small.png", 
             "target": "Icon-Small.png"
+        }, 
+        {
+            "asset": "RubeTest1/Resources/Default@2x.png", 
+            "target": "Default@2x.png"
         }, 
         {
             "asset": "RubeTest1/Resources/Icon-Small@2x.png", 
@@ -84,6 +84,10 @@
         {
             "asset": "RubeTest1/Resources/template.json", 
             "target": "template.json"
+        }, 
+        {
+            "asset": "RubeTest1/plane_trace.png", 
+            "target": "plane_trace.png"
         }
     ], 
     "link_flags": [], 

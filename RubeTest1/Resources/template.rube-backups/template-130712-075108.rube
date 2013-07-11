@@ -1048,20 +1048,13 @@
         ],
         "id" : 34,
         "linearVelocity" : 0,
-        "massData-I" : 150.3524475097656,
-        "massData-center" : 
-        {
-          "x" : 0.5844379663467407,
-          "y" : 0.2040605098009109
-        },
-        "massData-mass" : 14.80040550231934,
         "name" : "plane_trace",
         "position" : 
         {
           "x" : 17.30679321289062,
           "y" : 7.585676193237305
         },
-        "type" : "dynamic"
+        "type" : "static"
       }
     ],
     "metaimage" : 
